@@ -3,11 +3,20 @@
 # Installation
 1. HMI Editor "Nextion Editor" : https://nextion.tech/nextion-editor/
 2. RTF (really !)
-Warning : this editor is for Windows Only and generated HMI file is binary
+
+__Warning : this editor is for Windows Only and generated HMI file is binary__
 
 # Edit HMI
 Open the HMI file with Nextion Editor
 Use Editor to edit HMI (enjoy !!!)
+
+## Fonts
+Fonts shall be generated from standard font files using Nextion Editor and inserted in the project. The fonts will be embedded to the program. Make sure to only bundle fonts that are used in the project.
+They will be given a font ID that shall be used in the font parameter in labels
+
+## Images
+Images shall be generated from standard font files using Nextion Editor and inserted in the project. The Images will be embedded to the program. Make sure to only bundle Images that are used in the project.
+They will be given a image ID that shall be used in the image parameter in image widget
 
 # Usage
 The screen can be controlled through serial connection
